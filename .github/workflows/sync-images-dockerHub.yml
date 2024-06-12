@@ -41,4 +41,5 @@ jobs:
       - name: Use Skopeo Tools Sync Image to Docker Hub
         run: |
           #!/usr/bin/env bash
-          skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/sun-panel:1.4.0
+          # ubuntu v22.04
+          skopeo copy docker://registry.k8s.io/ubuntu:22.04 docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/ubuntu:22.04
