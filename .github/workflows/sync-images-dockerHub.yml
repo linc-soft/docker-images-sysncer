@@ -41,5 +41,7 @@ jobs:
       - name: Use Skopeo Tools Sync Image to Docker Hub
         run: |
           #!/usr/bin/env bash
-          # ubuntu v22.04
+          # frooodle/s-pdf:latest
           skopeo copy docker://docker.io/frooodle/s-pdf:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/s-pdf:latest
+          # ubuntu/nginx:latest
+          skopeo copy docker://docker.io/ubuntu/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/ubuntu-nginx:latest
