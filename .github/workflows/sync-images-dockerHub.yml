@@ -42,4 +42,4 @@ jobs:
         run: |
           #!/usr/bin/env bash
           # ubuntu v22.04
-          skopeo copy docker://docker.io/_/ubuntu:22.04 docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/ubuntu:22.04
+          skopeo copy docker://docker.io/orgs/ubuntu:22.04 docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/ubuntu:22.04
