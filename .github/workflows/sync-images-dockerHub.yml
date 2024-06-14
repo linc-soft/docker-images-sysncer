@@ -46,5 +46,7 @@ jobs:
           # ubuntu/nginx:latest
           # skopeo copy docker://docker.io/ubuntu/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/ubuntu-nginx:latest
           # dreamacro/clash
-          skopeo copy docker://docker.io/dreamacro/clash:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/dreamacro-clash:latest
+          # skopeo copy docker://docker.io/dreamacro/clash:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/dreamacro-clash:latest
+          # haishanh/yacd
+          skopeo copy docker://docker.io/haishanh/yacd:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/haishanh-yacd:latest
           
