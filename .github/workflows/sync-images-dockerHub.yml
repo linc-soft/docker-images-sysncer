@@ -42,6 +42,9 @@ jobs:
         run: |
           #!/usr/bin/env bash
           # frooodle/s-pdf:latest
-          skopeo copy docker://docker.io/frooodle/s-pdf:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/s-pdf:latest
+          # skopeo copy docker://docker.io/frooodle/s-pdf:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/s-pdf:latest
           # ubuntu/nginx:latest
-          skopeo copy docker://docker.io/ubuntu/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/ubuntu-nginx:latest
+          # skopeo copy docker://docker.io/ubuntu/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/ubuntu-nginx:latest
+          # dreamacro/clash
+          skopeo copy docker://docker.io/dreamacro/clash:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/dreamacro-clash:latest
+          
