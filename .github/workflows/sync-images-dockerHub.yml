@@ -48,5 +48,7 @@ jobs:
           # dreamacro/clash
           # skopeo copy docker://docker.io/dreamacro/clash:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/dreamacro-clash:latest
           # haishanh/yacd
-          skopeo copy docker://docker.io/haishanh/yacd:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/haishanh-yacd:latest
+          # skopeo copy docker://docker.io/haishanh/yacd:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/haishanh-yacd:latest
+          # rabbitmq
+          skopeo copy docker://docker.io/haishanh/library/rabbitmq:3.13-management docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/rabbitmq:3.13-management
           
