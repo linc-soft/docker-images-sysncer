@@ -51,4 +51,6 @@ jobs:
           # skopeo copy docker://docker.io/haishanh/yacd:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/haishanh-yacd:latest
           # rabbitmq
           skopeo copy docker://docker.io/library/rabbitmq:3.13-management docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/rabbitmq:3.13-management
+          # ubuntu:22.04
+          skopeo copy docker://docker.io/library/ubuntu:22.4 docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/ubuntu:22.04
           
