@@ -56,5 +56,6 @@ jobs:
           # Nginx
           # skopeo copy docker://docker.io/library/nginx:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/nginx:latest
           # R
-          skopeo copy docker://docker.io/rocker/rstudio:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/rocker-rstudio:latest
-          
+          # skopeo copy docker://docker.io/rocker/rstudio:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/rocker-rstudio:latest
+          # 
+          skopeo copy docker://docker.io/openp2pcn/openp2p-client:latest docker://registry.cn-hangzhou.aliyuncs.com/linc-soft/openp2p-client:latest
